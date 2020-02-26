@@ -16,13 +16,28 @@ yarn add brzipcode
 
 ### Usage
 
-There are 3 methods that you can use:
+There are 3 methods you can use:
 
   * ZipCodesFromGivenState
   * StateFromZipCode
   * isZipCodeInState
 
 ### Examples
+
+**ZipCodesFromGivenState** returns an object as it follows:
+```js
+import {ZipCodesFromGivenState} from 'brzipcodes'
+
+const data = ZipCodesFromGivenState('SP')
+
+console.log(data)
+```
+``` output
+{
+  state: 'São Paulo',
+  range: [ { start: '11000-000', finish: '19999-999' } ]
+}
+```
 
 ## Authors
 
