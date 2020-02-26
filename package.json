@@ -1,0 +1,24 @@
+{
+  "name": "brZipCode",
+  "version": "1.0.0",
+  "description": "Helps to define if a given Zip-Code matches with given State",
+  "main": "src/dist/index.js",
+  "author": "Thiago Vasconcellos",
+  "license": "MIT",
+  "scripts": {
+    "d": "node ./src/tests.js",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "types": "src/dist/index.d.ts",
+  "dependencies": {
+    "@brazilian-utils/is-valid-cep": "^0.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.2"
+  }
+}
