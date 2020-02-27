@@ -11,6 +11,7 @@
     "lint": "tslint -p tsconfig.json",
     "test": "jest"
   },
+  "keywords": ["brazil", "zipcode", "cep", "gerador de cep", "brazilian zip code", "validação de cep"],
   "types": "src/dist/index.d.ts",
   "dependencies": {
     "@brazilian-utils/is-valid-cep": "^0.1.2",

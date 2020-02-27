@@ -90,7 +90,7 @@ function ZipCodesFromGivenState(state: string): ZipCodeObject {
     case 'RS':
       return { state: 'Rio Grande do Sul', range: [{ start: 90000000, finish: 99999999 }] };
     default:
-      return {state: 'Invalid State', range: [{start: 0, finish: 0}]};
+      return { state: 'Invalid State', range: [{ start: 0, finish: 0 }] };
   }
 }
 
@@ -100,7 +100,7 @@ function ZipCodesFromGivenState(state: string): ZipCodeObject {
  */
 function StateFromZipCode(zipCode: number): string {
   if (!isValidCep(zipCode)) return 'Invalid ZipCode';
-  
+
   switch (true) {
     case zipCode >= 11000000 && zipCode <= 19999999:
       return 'SP';
