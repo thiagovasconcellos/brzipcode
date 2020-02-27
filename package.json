@@ -1,6 +1,6 @@
 {
   "name": "brzipcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helps to define if a given Zip-Code matches with given State",
   "main": "src/dist/index.js",
   "author": "Thiago Vasconcellos",
