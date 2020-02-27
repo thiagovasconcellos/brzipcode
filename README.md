@@ -1,4 +1,5 @@
-# Brazilian ZipCode Validator
+# Brazilian ZipCode Validator <img src="https://cdn.countryflags.com/thumbs/brazil/flag-button-round-250.png" width="32" height="32" title="Brazil" />
+
 
 Need some validation using Brazilian ZipCodes? I can help you with that!
 
@@ -16,11 +17,12 @@ yarn add brzipcode
 
 ### Usage
 
-There are 3 methods you can use:
+There are four methods you can use:
 
   * ZipCodesFromGivenState
   * StateFromZipCode
   * isZipCodeInState
+  * GenerateRandomZipCode
 
 ### Examples
 
@@ -72,6 +74,20 @@ console.log(data)
 output
 ``` output
 false
+```
+
+**GenerateRandomZipCode** a helper that generates a random ZipCode from a given state
+
+```js
+import {GenerateRandomZipCode} from 'brzipcodes'
+
+const zipCode = GenerateRandomZipCode('SP')
+
+console.log(zipCode)
+```
+output
+``` output
+11320130
 ```
 
 ## Authors

@@ -1,12 +1,11 @@
 {
-  "name": "brZipCode",
+  "name": "brzipcode",
   "version": "1.0.0",
   "description": "Helps to define if a given Zip-Code matches with given State",
   "main": "src/dist/index.js",
   "author": "Thiago Vasconcellos",
   "license": "MIT",
-  "scripts": {
-    "d": "node ./src/tests.js",
+  "scripts": {    
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
