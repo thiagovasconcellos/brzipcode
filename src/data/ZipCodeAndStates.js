@@ -50,4 +50,4 @@ module.exports = {
   PR: { state: 'Paraná', range: [{ start: 80000000, finish: 87999999 }] },
   SC: { state: 'Santa Catarina', range: [{ start: 88000000, finish: 89999999 }] },
   RS: { state: 'Rio Grande do Sul', range: [{ start: 90000000, finish: 99999999 }] }
-}
+};

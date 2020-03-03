@@ -1,5 +1,5 @@
 const isValidCep = require('@brazilian-utils/is-valid-cep');
-const zipCodeAndStates = require('./data/ZipCodesAndStates.js');
+const zipCodeAndStates = require('./data/ZipCodeAndStates');
 
 interface ZipCodeObject {
   state: string;
