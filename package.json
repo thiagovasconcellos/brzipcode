@@ -5,17 +5,25 @@
   "main": "src/dist/index.js",
   "author": "Thiago Vasconcellos",
   "license": "MIT",
-  "scripts": {    
+  "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest"
   },
-  "keywords": ["brazil", "zipcode", "cep", "gerador de cep", "brazilian zip code", "validação de cep"],
+  "keywords": [
+    "brazil",
+    "zipcode",
+    "cep",
+    "gerador de cep",
+    "brazilian zip code",
+    "validação de cep"
+  ],
   "types": "src/dist/index.d.ts",
   "dependencies": {
     "@brazilian-utils/is-valid-cep": "^0.1.2",
-    "@types/jest": "^25.1.3"
+    "@types/jest": "^25.1.3",
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "@types/node": "^13.7.6",
