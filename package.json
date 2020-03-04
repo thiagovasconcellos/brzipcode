@@ -1,6 +1,6 @@
 {
   "name": "brzipcode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helps to define if a given Zip-Code matches with given State",
   "main": "src/dist/index.js",
   "author": "Thiago Vasconcellos",
@@ -17,7 +17,11 @@
     "cep",
     "gerador de cep",
     "brazilian zip code",
-    "validação de cep"
+    "validação de cep",
+    "validador de cep",
+    "utilitários brasileiros",
+    "cep",
+    "consulta cep"
   ],
   "types": "src/dist/index.d.ts",
   "dependencies": {

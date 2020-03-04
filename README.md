@@ -17,12 +17,13 @@ yarn add brzipcode
 
 ### Usage
 
-There are four methods you can use:
+There are some methods you can use:
 
   * ZipCodesFromGivenState
   * StateFromZipCode
   * isZipCodeInState
   * GenerateRandomZipCode
+  * GetAddressFromZipCode
 
 ### Examples
 
@@ -88,6 +89,47 @@ console.log(zipCode)
 output
 ``` output
 11320130
+```
+
+**GetAddressFromZipCode** returns an object as it follows.
+(Note that this is a async function...remember to use async/await. Otherwise you will received invalid return)
+
+**zipCode**: Formated Zip Code
+
+**address**: Complete address from given Zip Code
+
+**complement**: Complement from address
+
+**district**: District from address
+
+**city**: City from address
+
+**state**: State from address
+
+**ibge**: Ibge code from given Zip Code
+
+**gia**: GIA code from given Zip Code
+
+
+```js
+import {GetAddressFromZipCode} from 'brzipcodes'
+
+const response = await GetAddressFromZipCode(01001000)
+
+console.log(response)
+```
+output
+``` output
+{
+  zipCode: '01001-000',
+  address: 'Praça da Sé',
+  complement: 'lado ímpar',
+  district: 'Sé',
+  city: 'São Paulo',
+  state: 'SP',
+  ibge: '3550308',
+  gia: '1004'
+}
 ```
 
 ## Authors
