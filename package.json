@@ -30,7 +30,7 @@
   "types": "src/dist/index.d.ts",
   "dependencies": {
     "@brazilian-utils/is-valid-cep": "^0.1.2",
-    "axios": "^0.21.3",
+    "axios": "^1.6.0",
     "@types/jest": "^25.2.3"
   },
   "devDependencies": {
